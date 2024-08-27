@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!-- Link to external CSS files -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <style>
@@ -18,7 +16,7 @@
             box-sizing: border-box;
         }
         body {
-            padding-top: 80px; /* Adjust this value if the navbar height changes */
+            padding-top: 80px; 
         }
         nav {
             display: flex;
@@ -29,22 +27,22 @@
             position: fixed;
             top: 0;
             left: 0;
-            background: white; /* Add a background color for visibility */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
-            z-index: 1000; /* Ensure the navbar is above other content */
+            background: white; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            z-index: 1000; 
             background: rgb(255,224,101);
             background: linear-gradient(90deg, rgba(255,224,101,1) 32%, rgba(248,132,60,1) 100%);
         }
         .logo {
             display: flex;
-            align-items: center; /* Center logo vertically */
+            align-items: center; 
         }
 
         .logo img {
-            width: 50px; /* Adjust size as needed */
+            width: 50px; 
             height: auto;
             vertical-align: middle;
-            margin-left: 90px; /* Space between logo and menu items */
+            margin-left: 90px; 
         }
         nav ul {
             list-style: none;
@@ -57,21 +55,21 @@
             text-decoration: none;
             color: black;
             font-weight: bold;
-            font-size: 16px; /* Adjust font size if needed */
+            font-size: 16px; 
             transition: color 0.3s ease;
         }
         nav ul li a:hover {
             color: red;
         }
         .home {
-        height: calc(100vh - 80px); /* Adjust height to account for the fixed navbar */
+        height: calc(100vh - 80px); 
         color: #fff;
         min-height: 500px;
         font-family: 'Ubuntu', sans-serif;
         display: flex;
-        justify-content: flex-start; /* Align items to the left */
-        align-items: center; /* Center items vertically */
-        text-align: left; /* Align text to the left */
+        justify-content: flex-start; 
+        align-items: center; 
+        text-align: left; 
         background: rgb(255,224,101);
         background: linear-gradient(90deg, rgba(255,224,101,1) 32%, rgba(248,132,60,1) 100%);
     }
@@ -81,7 +79,7 @@
         }
 
         .home .home-content {
-            max-width: 100%; /* Adjust max-width if needed */
+            max-width: 100%; 
             margin-left: 20px;
             position: absolute;
             bottom: 45%;
@@ -98,7 +96,7 @@
             font-size: 85px;
             font-weight: 600;
             color: brown;
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Darker and more pronounced shadow */
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); 
             margin: 0;
         }
 

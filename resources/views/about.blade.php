@@ -17,7 +17,7 @@
             box-sizing: border-box;
         }
         body {
-            padding-top: 80px; /* Adjust this value if the navbar height changes */
+            padding-top: 80px; 
         }
         nav {
             display: flex;
@@ -28,22 +28,22 @@
             position: fixed;
             top: 0;
             left: 0;
-            background: white; /* Add a background color for visibility */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
-            z-index: 1000; /* Ensure the navbar is above other content */
+            background: white; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            z-index: 1000; 
             background: rgb(255,224,101);
             background: linear-gradient(90deg, rgba(255,224,101,1) 32%, rgba(248,132,60,1) 100%);
         }
         .logo {
             display: flex;
-            align-items: center; /* Center logo vertically */
+            align-items: center; 
         }
 
         .logo img {
-            width: 50px; /* Adjust size as needed */
+            width: 50px; 
             height: auto;
             vertical-align: middle;
-            margin-left: 90px; /* Space between logo and menu items */
+            margin-left: 90px; 
         }
         nav ul {
             list-style: none;
@@ -56,7 +56,7 @@
             text-decoration: none;
             color: black;
             font-weight: bold;
-            font-size: 16px; /* Adjust font size if needed */
+            font-size: 16px; 
             transition: color 0.3s ease;
         }
         nav ul li a:hover {
@@ -64,7 +64,7 @@
         }
         .home {
             display: flex;
-            justify-content: space-between; /* Ensures space between text and image */
+            justify-content: space-between; 
             align-items: center;
             height: 100vh;
             background: linear-gradient(90deg, rgba(255,224,101,1) 32%, rgba(248,132,60,1) 100%);
@@ -72,21 +72,20 @@
         }
 
         .home-content {
-            flex: 1; /* Takes up space on the left side */
-            text-align: left; /* Aligns text to the left */
+            flex: 1; 
+            text-align: left; 
             text-align: justify;
             font-size: 160%;
-            margin-left: 40%; /* Adds margin to the right side */
+            margin-left: 40%; 
             position: absolute;
             bottom: 20%;
-            
             left:0%;
         }
 
         .images {
-            flex: 1; /* Takes up space on the right side */
+            flex: 1; 
             display: flex;
-            justify-content: flex-end; /* Aligns image to the right */
+            justify-content: flex-end; 
         }
 
         .image-logo {
